@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Pattern4 {
+   public static void main(String[] args){
+   Scanner sc =new Scanner(System.in);
+   int num=sc.nextInt();
+   for(int k=0;k<num;k++){
+    for(char ch='a';ch<='a'+k;ch++){
+        System.out.print(ch+" ");
+    }
+    System.out.println();
+   } 
+}}
